@@ -67,7 +67,7 @@ footer.container {
 	padding: 40px 0;
 }
 
-#about-me, #connect-links {
+#about-me, #connect-links, #contact {
 	background: #fff;
 	padding: 20px;
 	border: 2px solid #ddd;
@@ -109,6 +109,25 @@ footer.container {
 	color: #777;
 }
 
+/* Contact Section */
+#contact-form, #contact-form input {
+	color: #777;
+}
 
+#contact-form input, #contact-form textarea {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+}
+
+#contact-form button {
+	background-color: #4aaaa5;
+	padding: 5px 30px;
+	color: #fff;
+}
+
+#contact-form button:hover {
+	cursor: pointer;
+}
 
 
