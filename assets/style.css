@@ -67,7 +67,7 @@ footer.container {
 	padding: 40px 0;
 }
 
-#about-me, #connect-links, #contact {
+#about-me, #connect-links, #contact, #portfolio{
 	background: #fff;
 	padding: 20px;
 	border: 2px solid #ddd;
@@ -129,5 +129,53 @@ footer.container {
 #contact-form button:hover {
 	cursor: pointer;
 }
+
+/* Portfolio Section */
+#portfolio {
+	overflow: auto;
+}
+
+#images-container .images {
+	width: 50%;
+	padding: 10px;
+	float: left;
+}
+
+#images-container .img {
+	background: url("./images/image-placeholder.jpg") center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+#images-container .img-name {
+	background-color: #4aaaa5;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media only screen and (max-width: 991px) {
+
+	#images-container .images {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.connect-with-me {
+		margin-top: 20px;
+	}
+}
+
+
 
 
